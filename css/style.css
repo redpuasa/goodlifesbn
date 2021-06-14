@@ -1,0 +1,362 @@
+/*--------------------------
+    Body -> Start
+--------------------------*/
+html, body{
+    height: 100%;
+    font-family: 'Arimo', sans-serif;
+}
+
+.fill{
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+/*--------------------------
+    Body -> End
+--------------------------*/
+
+/*--------------------------
+    Navigation -> Start
+--------------------------*/
+.navi{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    border-radius: 50px;
+}
+
+.navi a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    transition: 0.5s ease-in-out;
+}
+
+.navi a:hover{
+    color: white;
+    background-color: #db161f;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.nvBtn{
+    background-color: black;
+}
+
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  }
+/*--------------------------
+    Navigation -> End
+--------------------------*/
+
+/*--------------------------
+    Main Head -> Start
+--------------------------*/
+#head{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: url("https://www.hso.com/wp-content/uploads/2018/09/Business-Finance-accounting-contract-advisor-investment-consulting-marketing-plan-meeting_1600x635_acf_cropped.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+#headContent{
+    color: azure;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 40px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.uniq{
+    color:#db161f;
+    font-size: 70px;
+}
+
+.lowuniq{
+    color:#db161f;
+    font-size: 70px;
+}
+
+.low{
+    font-size:40px;
+}
+
+.ititle{
+    color:#db161f;
+}
+
+.cvr{
+    background-color: rgba(219, 22, 31, 0.8);
+    color: white;
+}
+
+.cor{
+    background-color: rgba(219, 22, 31, 0.8);
+    color: white;
+}
+/*--------------------------
+    Main Head -> End
+--------------------------*/
+
+/*--------------------------
+    Slider -> Start
+--------------------------*/
+.slide{
+    height:500px;
+    width:100%;
+}
+
+.carousel-inner{
+    border-radius: 15px;
+}
+
+/*
+img{
+    height:50%;
+}*/
+/*--------------------------
+    Slider -> End
+--------------------------*/
+
+/*--index.html -> Testimonial--*/
+.testimonial{box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(219, 22, 31,0.22);}
+
+/*--------------------------
+    Contact -> start
+--------------------------*/
+.con{
+    font-size:15px;
+    background: rgba(219, 22, 31, 0.7);
+    color:white;
+}
+  
+.map-responsive{
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 75%;
+    width: 85%;
+    position: absolute;
+}
+
+.footLink{
+    color: white;
+}
+
+.footLink a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.foot{
+    background-color: rgb(219, 22, 31);
+    color: white;
+}
+
+.btnTlk{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.btnTlk:hover{
+    background-color: rgba(219, 22, 31, 0.8);
+    color: white;
+    border: solid white
+}
+
+.btnCon{
+    background-color: rgba(219, 22, 31, 0.8);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.btnCon:hover{
+    background-color: white;
+    border: solid rgba(219, 22, 31, 0.8);
+    color: black;
+}
+/*--------------------------
+    Contact -> End
+--------------------------*/
+
+
+/*--------------------------
+    Service.html -> Start
+--------------------------*/
+.stitle{
+    color:#db161f;
+}
+
+.atitle:hover{
+    text-decoration: none;
+}
+
+/*--------------------------
+    Service.html -> End
+--------------------------*/
+
+
+/*--------------------------
+    News.html -> Start
+--------------------------*/
+.trans{transition: all 1s ease;}
+ 
+/*-----------Event---------*/
+
+
+/*------CSR-----------*/
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+
+.thumb{
+    margin-bottom: 30px;
+}
+          
+.page-top{
+     margin-top:85px;
+}
+    
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+}
+           
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+      
+.modal-title {
+    color:#000;
+}
+
+.modal-footer{
+    display:none;  
+}
+
+/*---------news-----------*/
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: rgba(219, 22, 31, 0.55);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(219, 22, 31,0.22);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+/*--------------------------
+    News.html -> End
+--------------------------*/
+
+
+/*--------------------------
+    Form area -> Start
+--------------------------*/
+.sideimg{
+    background-image: url("https://images.unsplash.com/photo-1616702450885-dd2cca71b6b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODk5NDM4Nw&ixlib=rb-1.2.1&q=80&w=400");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btnCu{
+    background-color: #767d86;
+    color: white;
+}
+
+.nav_f{
+    color: white;
+}
+
+.btnCu:hover{
+    background-color: #db161f;
+    color: black;
+}
+
+.nav_f:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*------join_us.html only------*/
+.down:hover{
+    text-decoration: none;
+}
+/*--------------------------
+    Form area -> End
+--------------------------*/
