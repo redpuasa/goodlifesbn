@@ -4,9 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
@@ -16,6 +18,7 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/Logo.png">
+
     <!--Library to add animation-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -26,10 +29,6 @@
   <body>
 
     <header>
-
-        <!--Main Head-->
-        <div class="container-fluid p-5 fill" id="head">
-
         <!--Start Navigation-->
         <nav class="navbar navbar-expand-sm justify-content-center navi" id="mainNav">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +80,9 @@
         </nav>
         <!--End Navigation-->
 
-            <div class="text-white mt-4" id="headContent">
+        <!--Main Head-->
+        <div class="container-fluid" id="head">
+            <div class="text-white" id="headContent" data-aos="fade-up">
                 <img src="img/Logo.png" class="mx-auto d-flex justify-content-center" id="logo" alt="goodlife_logo">
                 <p class="text-center mt-3 "><span class="uniq">GoodLife</span> Sdn Bhd.</p>
                 <p class="text-center low ">Plan your <span class="lowuniq">future</span> now.</p>
@@ -162,7 +163,7 @@
         <div class="container-fluid p-5">
             <div class="row">
               
-                <div class="col-sm-4 p-5">
+                <div class="col-sm-4 p-5" data-aos="fade-up">
                     <i class="fas fa-home fa-3x ititle"></i>
                     <h2 class="text-center mb-3 ititle">Personal</h2>
                     <hr>
@@ -379,6 +380,6 @@
           duration: 1500
       });
     </script>
-    
+
 </body>
 </html>
