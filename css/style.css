@@ -30,7 +30,7 @@ html, body{
 .navi a{
     text-align: center;
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     /*font-family: 'Lora', serif;*/
     /*transition: 0.5s ease-in-out;*/
 }
@@ -39,7 +39,7 @@ html, body{
     color: white;
     /*background-color: rgba(219, 22, 31, 0.8);*/
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /*font-family: 'Lora', serif;*/
 }
@@ -187,26 +187,30 @@ img{
 
 .btnTlk{
     background-color: white;
-    color: black;
-    transition: 0.5s ease;
+    border: 2px solid #e2454c;
+    color: #e2454c;
 }
 
 .btnTlk:hover{
-    background-color: rgba(219, 22, 31, 0.8);
+    background-color: #e2454c;
     color: white;
-    border: solid white
+    border: 2px solid #fff;
 }
 
 .btnCon{
-    background-color: rgba(219, 22, 31, 0.8);
+    background-color: #e2454c;
+    border: 2px solid #e2454c;
     color: white;
-    transition: 0.5s ease;
 }
 
 .btnCon:hover{
     background-color: white;
-    border: solid rgba(219, 22, 31, 0.8);
-    color: black;
+    border: 2px solid #e2454c;
+    color: #e2454c;
+}
+
+.profile{
+    padding-bottom: 50px;
 }
 /*--------------------------
     Contact -> End
